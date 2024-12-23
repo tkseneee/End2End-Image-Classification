@@ -4,6 +4,13 @@ Created on Mon Dec 23 11:13:16 2024
 
 @author: tksen
 """
+#tksendevops@777
+#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
+
+#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
+
+#git remote set-url origin https://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@github.com/tkseneee/End2End-Image-Classification.git
+
 import os
 from pathlib import Path
 import logging
