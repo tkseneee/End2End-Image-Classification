@@ -10,8 +10,9 @@ Created on Mon Dec 23 11:13:16 2024
 #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
 
 #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
+#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
 
-#git remote set-url origin https://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@github.com/tkseneee/End2End-Image-Classification.git
+#git remote set-url origin https://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@github.com/tkseneee/End2End-Image-Classification.git
 
 import os
 from pathlib import Path
