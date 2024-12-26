@@ -13,6 +13,11 @@ from src.cnnClassifier.pipeline.stage_01_data_ingestion import DataIngestionTrai
 from src.cnnClassifier.pipeline.stage_02_prepare_base_model import PrepareBaseModelTrainingPipeline
 from src.cnnClassifier.pipeline.stage_03_model_trainer import ModelTrainingPipeline
 from src.cnnClassifier.pipeline.stage_04_model_evaluation import EvaluationPipeline
+import os
+
+os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/tkseneee/End2End-Image-Classification.mlflow"
+os.environ["MLFLOW_TRACKING_USERNAME"]="tkseneee"
+os.environ["MLFLOW_TRACKING_PASSWORD"]="6cef99df1d2a48486b5a38a9737437e1ab13a416"
 
 STAGE_NAME="Data Ingestion stage"
 
